@@ -1,0 +1,37 @@
+{
+  "name": "@ultraforce/ts-php-lib",
+  "version": "1.0.0",
+  "description": "Various utility classes for PHP.",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "doc": "typedoc"
+  },
+  "files": [
+    "docs",
+    "dist",
+    "LICENSE.MD",
+    "README.md"
+  ],
+  "keywords": [
+    "typescript",
+    "utility"
+  ],
+  "repository": {
+    "url": "https://github.com/JoshaMunnik/ts-php-lib",
+    "type": "git"
+  },
+  "author": "Josha Munnik",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.7",
+    "typedoc": "^0.23.28",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@ultraforce/ts-general-lib": "^1.0.4",
+    "@ultraforce/ts-nodejs-lib": "^1.0.1"
+  }
+}
