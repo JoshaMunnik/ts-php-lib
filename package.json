@@ -1,6 +1,6 @@
 {
   "name": "@ultraforce/ts-php-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Various utility classes for PHP.",
   "scripts": {
     "build": "tsc",
@@ -21,6 +21,7 @@
     "url": "https://github.com/JoshaMunnik/ts-php-lib",
     "type": "git"
   },
+  "typings": "./dist/index.d.ts",
   "author": "Josha Munnik",
   "license": "MIT",
   "devDependencies": {
