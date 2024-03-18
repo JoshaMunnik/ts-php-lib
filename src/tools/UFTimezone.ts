@@ -2,9 +2,9 @@
 
 import {execFile} from "child_process";
 import {promisify} from "util";
-import {UFLog} from "@ultraforce/ts-nodejs-lib/dist/log/UFLog";
-import {UFSystem} from "@ultraforce/ts-general-lib/dist/tools/UFSystem";
-import {UFText} from "@ultraforce/ts-general-lib/dist/tools/UFText";
+import {IUFLog} from "@ultraforce/ts-nodejs-lib/dist/log/IUFLog.js";
+import {UFSystem} from "@ultraforce/ts-general-lib/dist/tools/UFSystem.js";
+import {UFText} from "@ultraforce/ts-general-lib/dist/tools/UFText.js";
 
 // endregion
 
@@ -77,7 +77,7 @@ export class UFTimezone {
    *
    * @private
    */
-  private readonly m_log: UFLog;
+  private readonly m_log: IUFLog;
 
   // endregion
 
@@ -88,10 +88,10 @@ export class UFTimezone {
    *
    * @param {string} aPhp
    *   Path and filename of php cli interpreter.
-   * @param {UFLog} aLog
+   * @param {IUFLog} aLog
    *   Log to use.
    */
-  constructor(aPhp: string, aLog: UFLog) {
+  constructor(aPhp: string, aLog: IUFLog) {
     this.m_php = aPhp;
     this.m_log = aLog;
   }

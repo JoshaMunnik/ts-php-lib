@@ -1,4 +1,4 @@
 // tools
 
-export * from './tools/UFPhp';
-export * from './tools/UFTimezone';
+export * from './tools/UFPhp.js';
+export * from './tools/UFTimezone.js';

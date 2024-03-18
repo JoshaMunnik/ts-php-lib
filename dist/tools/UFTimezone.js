@@ -10,8 +10,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 import { execFile } from "child_process";
 import { promisify } from "util";
-import { UFSystem } from "@ultraforce/ts-general-lib/dist/tools/UFSystem";
-import { UFText } from "@ultraforce/ts-general-lib/dist/tools/UFText";
+import { UFSystem } from "@ultraforce/ts-general-lib/dist/tools/UFSystem.js";
+import { UFText } from "@ultraforce/ts-general-lib/dist/tools/UFText.js";
 // endregion
 // region local constants
 /**
@@ -50,7 +50,7 @@ export class UFTimezone {
      *
      * @param {string} aPhp
      *   Path and filename of php cli interpreter.
-     * @param {UFLog} aLog
+     * @param {IUFLog} aLog
      *   Log to use.
      */
     constructor(aPhp, aLog) {

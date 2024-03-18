@@ -1,4 +1,4 @@
-import { UFLog } from "@ultraforce/ts-nodejs-lib/dist/log/UFLog";
+import { IUFLog } from "@ultraforce/ts-nodejs-lib/dist/log/IUFLog.js";
 /**
  * {@link UFTimezone} is a utility class to handle php timezones.
  */
@@ -25,10 +25,10 @@ export declare class UFTimezone {
      *
      * @param {string} aPhp
      *   Path and filename of php cli interpreter.
-     * @param {UFLog} aLog
+     * @param {IUFLog} aLog
      *   Log to use.
      */
-    constructor(aPhp: string, aLog: UFLog);
+    constructor(aPhp: string, aLog: IUFLog);
     /**
      * Gets the difference to UTC in seconds. The method uses caching and updates the offset after 1 hour.
      *
