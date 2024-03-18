@@ -1,4 +1,4 @@
-import { UFLog } from "@ultraforce/ts-nodejs-lib/dist/UFLog";
+import { UFLog } from "@ultraforce/ts-nodejs-lib/dist/log/UFLog";
 /**
  * {@link UFTimezone} is a utility class to handle php timezones.
  */

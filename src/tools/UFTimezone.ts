@@ -2,7 +2,7 @@
 
 import {execFile} from "child_process";
 import {promisify} from "util";
-import {UFLog} from "@ultraforce/ts-nodejs-lib/dist/UFLog";
+import {UFLog} from "@ultraforce/ts-nodejs-lib/dist/log/UFLog";
 import {UFSystem} from "@ultraforce/ts-general-lib/dist/tools/UFSystem";
 import {UFText} from "@ultraforce/ts-general-lib/dist/tools/UFText";
 
